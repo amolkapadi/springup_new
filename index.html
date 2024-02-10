@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <title>SpringUp Labs</title>
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!--Bootstrap 5-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!--External CSS-->
+  <link href="./css/styles.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <!--Background-img -->
+  <header>
+    <div class="header-main">
+      <h1 class="header-text">Your Digital Engineering Partner!</h1>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/slider-img-1.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/slider-img-2.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/slider-img-3.png" />
+          </div>
+
+          <div class="swiper-slide">
+            <img src="./images/slider-img-1.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/slider-img-3.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/slider-img-1.png" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <div class="main-text">
+        <p> <span class="main-info-1">We help our customer to realize their investments, </span> <span
+            class="main-info-2">while working with <br>
+            customer focus, integrity, and insight; there by becoming the trusted <br>
+            technology partner in our customers’ digital transformation journey.</span></p>
+      </div>
+      <div class="horizantal-line"> </div>
+
+      <div class="row main-img-div  g-4">
+        <div class="col-md-3">
+          <div class="d-flex">
+            <img src="./images/main-img1.png" alt="main-img"/>
+            <p class="main-img-text">Application Modernization</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="d-flex">
+          <img src="./images/main-img2.png" alt="main-img"/>
+            <p class="main-img-text">Data-Driven Methodologies</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="d-flex">
+          <img src="./images/main-img3.png" alt="main-img" class="main-img"/>
+          <p class="main-img-text">Innovative Offshore Delivery Model</p>
+        </div>
+        </div>
+      </div>
+
+      <div class="scroll-section">
+          <h1>SCROLL</h1>
+          <img src="./images/downarroe.png" >
+      </div>
+    </div>
+  </header>
+
+
+
+  <!--Navbar Start-->
+  <nav class="navbar navbar-expand-lg bg-light fixed-top bg-transparent pt-3">
+    <div class="container">
+      <a class="navbar-brand" href="#">Springup Labs</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">Springup Labs</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Office model</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--Navbar End-->
+
+
+
+  <!--Who we are section Start-->
+  <div class="container py-5" >
+      <h1 class="who-text py-5">Who we are</h1>
+      <div class="row py-5">
+        <div class="col-md-6">
+            <img src="./images/slider-img-1.png" alt="img" class="who-img">
+        </div>
+        <div class="col-md-6 bg-who">
+            <div class="who-text-info">
+              <p>We are an innovative software development and Services company focusing on modern digital capabilities and data-driven methodologies to enhance efficiency and value coupled with innovative offshore delivery model.</p>
+              <button class="btn btn-who">Meet our team</button>
+            </div>
+        </div>
+      </div>
+  </div>
+  <!--Who we are section End-->
+
+
+
+
+  <!--External JS-->
+  <script src="./js/main.js"></script>
+
+  <!--Bootstarp 5 Javascript-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: "auto",
+      spaceBetween: 50,
+      pagination: {
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+
+</html>
